@@ -1,0 +1,37 @@
+/* قاعدة عامة لجميع عناصر الصفحة */
+body {
+    font-family: Arial, sans-serif;  /* تحديد نوع الخط */
+    background-color: #f4f4f4;      /* لون خلفية الصفحة */
+    color: #333;                    /* اللون الأساسي للنص */
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق العنصر الرئيسي (container) */
+.container {
+    width: 80%;                     /* عرض المحتوى */
+    max-width: 800px;               /* الحد الأقصى للعرض */
+    margin: 50px auto;              /* محاذاة المركزية مع هامش علوي */
+    background-color: #fff;         /* خلفية بيضاء للمحتوى */
+    padding: 20px;                  /* مسافة داخلية */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف حول العنصر */
+    border-radius: 8px;             /* حواف دائرية */
+}
+
+/* تنسيق العنوان h1 */
+h1 {
+    font-size: 36px;                /* حجم الخط */
+    color: #2c3e50;                 /* لون العنوان */
+    text-align: center;             /* محاذاة النص إلى المنتصف */
+    margin-bottom: 20px;            /* مسافة تحت العنوان */
+}
+
+/* تنسيق الفقرة p */
+p {
+    font-size: 16px;                /* حجم النص */
+    line-height: 1.6;               /* ارتفاع السطر لتحسين القراءة */
+    color: #555;                    /* لون النص */
+    text-align: justify;            /* توزيع النص ليملأ المساحة */
+    text-indent: 30px; 
+    margin: 50px 50px 50px 50px;             /* المسافة الأولى للنص */
+}
