@@ -33,5 +33,6 @@ p {
     color: #555;                    /* لون النص */
     text-align: justify;            /* توزيع النص ليملأ المساحة */
     text-indent: 30px; 
-    margin: 50px 50px 50px 50px;             /* المسافة الأولى للنص */
+    margin: 50px 50px 50px 50px; 
+    font-style: oblique;            /* المسافة الأولى للنص */
 }
