@@ -1,7 +1,7 @@
 /* قاعدة عامة لجميع عناصر الصفحة */
 body {
     font-family: Arial, sans-serif;  /* تحديد نوع الخط */
-    background-color: #f4f4f4;      /* لون خلفية الصفحة */
+    background-color: beige;      /* لون خلفية الصفحة */
     color: #333;                    /* اللون الأساسي للنص */
     margin: 0;
     padding: 0;
@@ -23,7 +23,8 @@ h1 {
     font-size: 36px;                /* حجم الخط */
     color: #2c3e50;                 /* لون العنوان */
     text-align: center;             /* محاذاة النص إلى المنتصف */
-    margin-bottom: 20px;            /* مسافة تحت العنوان */
+    margin-bottom: 20px; 
+    background-color: burlywood;           /* مسافة تحت العنوان */
 }
 
 /* تنسيق الفقرة p */
@@ -34,5 +35,6 @@ p {
     text-align: justify;            /* توزيع النص ليملأ المساحة */
     text-indent: 30px; 
     margin: 50px 50px 50px 50px; 
-    font-style: oblique;            /* المسافة الأولى للنص */
+    font-style: oblique;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;          /* المسافة الأولى للنص */
 }
